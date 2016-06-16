@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Width and Height Example"
+            android:textAlignment="center"/>
+        <include layout="@layout/ex_width_height"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Margin and Padding Example"
+            android:textAlignment="center"/>
+        <include layout="@layout/ex_margin_padding"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FrameLayout Example"
+            android:textAlignment="center"/>
+        <include layout="@layout/ex_frame"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RelativeLayout Example"
+            android:textAlignment="center"/>
+        <include layout="@layout/ex_relative"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LinearLayout Example"
+            android:textAlignment="center"/>
+        <include layout="@layout/ex_linear"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TableLayout Example"
+            android:textAlignment="center"/>
+        <include layout="@layout/ex_table"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GridLayout Example"
+            android:textAlignment="center"/>
+        <include layout="@layout/ex_grid"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CardView Example"
+            android:textAlignment="center"/>
+        <include layout="@layout/ex_card"/>
+    </LinearLayout>
+</ScrollView>
